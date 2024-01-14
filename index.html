@@ -1,0 +1,1348 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <!-- main CSS file  -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <!-- smain CSS file -->
+
+        <!-- file CSS media -->
+        <link rel="stylesheet" href="./assets/css/media.css" />
+        <!-- file CSS media -->
+
+        <!-- font awesome -->
+        <link rel="stylesheet" href="./assets/css/all.min.css" />
+        <!-- font awesome -->
+
+        <!-- shortcut icon -->
+        <link rel="shortcut icon" href="./assets/images/logo/fav-icon.png" type="image/x-icon">
+        <!-- shortcut icon -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="#" >
+                            <img src="./assets/images/logo/fav-icon.png" alt="icon home">
+                        </a>
+                    </div>
+                    <!-- logo -->
+
+                    <nav>
+                        <ul class="menu">
+                            <li class="hover-nav">
+                                <a href="#"><i class="fa-solid fa-clapperboard-play"></i>أفلام</a>
+                            </li>
+                            <li class="hover-nav">
+                                <a href="#"><i class="fa-brands fa-mandalorian"></i>أنمي</a>
+                            </li>
+                            <li class="hover-nav">
+                                <a href="#"><i class="fa-solid fa-newspaper"></i>أخبار</a>
+                            </li>
+                            <li class="hover-nav">
+                                <a href="#"><i class="fa-regular fa-trophy-star"></i>تصنيفات</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                        <div class="icon-nav">
+                            <div class="hover-nav"><i class="fa-regular fa-circle-heart"></i></div>
+                            <div class="hover-nav"><i class="fa-regular fa-bell "></i></div>
+                            <div class="bookmark hover-nav"><i class="fa-regular fa-bookmark"></i>مكتبتي<i class="fa-regular fa-angle-down"></i></div>
+                        </div>
+
+                </div>
+        </header>
+
+        <main>
+            <div class="background"></div>
+    <!-- slider -->
+
+    <div class="slider-media">
+        <div class="slider">
+            <div class="slider-wrapper">
+                <div class="wrapper">
+                <a href="">
+                    <img src="./assets/images/movie-4.jpg" alt="">
+                </a>
+                </div>
+                <div class="wrapper">
+                    <a href="">
+                        <img src="./assets/images/movie-6.jpg" alt="">
+                    </a>
+                </div>
+                <div class="wrapper">
+                    <a href="">
+                        <img src="./assets/images/movie-3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="wrapper">
+                    <a href="">
+                        <img src="./assets/images/movie-5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="wrapper">
+                <a href="">
+                    <img src="./assets/images/movie-4.jpg" alt="">
+                </a>
+                </div>
+                <div class="wrapper">
+                    <a href="">
+                        <img src="./assets/images/movie-6.jpg" alt="">
+                    </a>
+                </div>
+                <div class="wrapper">
+                    <a href="">
+                        <img src="./assets/images/movie-3.jpg" alt="">
+                    </a>
+                </div>
+                <div class="wrapper">
+                    <a href="">
+                        <img src="./assets/images/movie-5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="wrapper">
+                <a href="">
+                    <img src="./assets/images/movie-4.jpg" alt="">
+                </a>
+                </div>
+            </div>
+        </div>
+        <div class="arrow">
+            <i class="fa-light fa-circle-arrow-left left" data-option="-600"></i>
+            <i class="fa-light fa-circle-arrow-right right" data-option="600"></i>
+        </div>
+    </div>
+
+<!-- slider -->
+
+        <section id="list" class="list-grid">
+            <div class="bars">
+                <!-- tabs -->
+                <div class="tabs">
+                    <ul>
+                        <li class="active" data-btnTage="all"><i class="fa-light fa-earth-africa"></i>الكل</li>
+                        <li data-btnTage="date"><i class="fa-light fa-sparkles"></i>أخر الحلقات</li>
+                        <li data-btnTage="veiw"><i class="fa-light fa-fire-flame-curved"></i>الأكثر شعبية</li>
+                        <li data-btnTage="movie"><i class="fa-regular fa-camera-movie"></i>أفضل الأفلام</li>
+                        <li data-btnTage="anime"><i class="fa-light fa-fan"></i>أفضل الأنميات</li>
+                    </ul>
+                </div>
+                <!-- tabs -->
+
+                <!-- search & filter -->
+                <div class="search-filter">
+                    <div class="filter-icon">
+                        <i class="fa-regular fa-filter-list"></i>
+                    </div>
+                    <div class="search">
+                        <form class="input-search" action="">
+                            <input type="text" name="search" placeholder="بحث ...">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+                <!-- search & filter -->
+            </div>
+            <br>
+                    <div class="movie-list">
+
+                        <article class="card-post" data-tage="movie" data-veiw="100"  data-date="2019">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="./pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/popular-movie-3.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp class="date">2019</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+                        <article class="card-post" data-tage="movie" data-veiw="200"  data-date="2010">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/popular-movie-1.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp class="date">2010</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+                        <article class="card-post" data-tage="anime" data-veiw="320"  data-date="2018">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img4.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp class="date">2018</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+                        <article class="card-post" data-tage="anime" data-veiw="700"  data-date="2015">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img5.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp class="date">2015</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="anime" data-veiw="400"  data-date="2020">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img6.png" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2020</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="movie" data-veiw="600"  data-date="2011">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/movie-2.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2011</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="anime" data-veiw="800"  data-date="2022">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img1.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2022</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="movie" data-veiw="200"  data-date="2018">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/movie-4.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2018</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="movie" data-veiw="600"  data-date="2020">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/movie-5.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2020</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="movie" data-veiw="300"  data-date="2019">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/movie-6.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2019</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="movie" data-veiw="150"  data-date="2020">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/movie-7.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2020</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="movie" data-veiw="400"  data-date="2020">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/movie-8.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2020</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="anime" data-veiw="700"  data-date="2021">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img2.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2021</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+                        <article class="card-post" data-tage="anime" data-veiw="400"  data-date="2012">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img10.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2012</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="anime" data-veiw="1000"  data-date="2017">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img11.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2017</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="movie" data-veiw="450"  data-date="2021">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/popular-movie-4.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2021</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="movie" data-veiw="500"  data-date="2011">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/popular-movie-5.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2011</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="movie" data-veiw="300"  data-date="2014">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/popular-movie-6.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2014</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="movie" data-veiw="650"  data-date="2020">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/popular-movie-7.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2020</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="movie" data-veiw="650"  data-date="2018">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/popular-movie-8.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2018</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+                        <article class="card-post" data-tage="movie" data-veiw="200"  data-date="2015">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/movie-1.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2015</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+                        <article class="card-post" data-tage="anime" data-veiw="300"  data-date="2019">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img3.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2019</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="anime" data-veiw="300"  data-date="2021">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img7.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2021</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="anime" data-veiw="700"  data-date="2017">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img8.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2017</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+
+                        <article class="card-post" data-tage="anime" data-veiw="800"  data-date="2020">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img9.png" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2020</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+
+                        <article class="card-post" data-tage="anime" data-veiw="750"  data-date="2013">
+                            <div class="main-card">
+                                <div class="post-line">
+                                    <a href="/pagevideos.html">
+                                        <div class="card-img">
+                                            <figure >
+                                                <img src="./assets/images/anime/img12.jpg" alt="movie 1" >
+                                            </figure>
+                                            <button class="button-watch btn">
+                                                <i class="fa-regular fa-play"></i><h4>Watch</h4>
+                                            </button>
+                                        </div>
+                                        <div class="title-post ltr">
+                                            <h3>movie 1</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                                    <div class="card-button btn">
+                                        <div class="button-options">
+                                            <i class="fa-regular fa-circle-ellipsis-vertical"></i>
+                                        </div>
+                                        <div class="bar-options">
+                                            <samp><i class="fa-solid fa-star"></i> مفضلة</samp>
+                                            <samp><i class="fa-solid fa-eye-slash"></i> إخفاء</samp>
+                                        </div>
+                                        <div class="button-bookmark">
+                                            <i class="fa-regular fa-bookmark"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                                    <div class="info-movie ltr">
+                                        <div class="info-text">
+                                            <samp>2013</samp>
+                                            <samp>.</samp>
+                                            <samp>4K</samp>
+                                            <samp>.</samp>
+                                            <samp>English</samp>
+                                        </div>
+                                        <div class="star">
+                                            <i class="fa-regular fa-star"></i> 9.1
+                                        </div>
+                                    </div>
+                        </article>
+                    </div>
+                    <br>
+                    <div class="btn-loding">
+                        <button class="loding-more">
+                            <samp>تحميل المزيد</samp>
+                        </button>
+                    </div>
+                </section>
+        </main>
+        <footer>
+            <hr>
+            <div class="social-media">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <div class="copyright">
+                <p> <i class="fa-regular fa-copyright"></i>  All Copy Right For  :  <a href="#"> AyoUbe </a></p>
+            </div>
+        </footer>
+        <script src="./assets/js/script.js"></script>
+    </body>
+    </html>
